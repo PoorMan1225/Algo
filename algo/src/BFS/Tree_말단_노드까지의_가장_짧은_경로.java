@@ -37,6 +37,7 @@ public class Tree_말단_노드까지의_가장_짧은_경로 {
             }
             L++;
         }
+        queue.clear();
         System.out.println(L);
     }
 }
